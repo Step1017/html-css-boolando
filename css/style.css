@@ -9,7 +9,7 @@
 
 /* GENERALI */
 .container {
-    width: 75%;
+    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -77,6 +77,7 @@ nav {
 
 .cards > img {
     position: relative;
+    height: 900px;
 }
 
 .cards > .non-vedo {
@@ -110,6 +111,15 @@ nav {
     padding: 8px 10px;
     font-weight:bold;
     left: 60px;
+}
+
+.sos-special {
+    position: absolute;
+    bottom: 150px;
+    background-color: green;
+    color: white;
+    padding: 8px 10px;
+    font-weight:bold;
 }
 
 .fav {
