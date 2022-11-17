@@ -145,3 +145,34 @@ nav {
     text-decoration: line-through;
     font-size: 20px;
 }
+
+/* FOOTER */
+footer {
+    background-color: black;
+}
+
+.foot-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 15px;
+}
+
+.foot-cont nav ul {
+    list-style: none;
+}
+
+.foot-cont nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.foot-cont nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-cont nav ul li a:hover {
+    text-decoration: underline;
+}
